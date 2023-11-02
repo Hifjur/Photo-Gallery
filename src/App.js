@@ -1,25 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Paper from '@mui/material/Paper';
+
+import { styled } from '@mui/material/styles';
+
+import image from './images/image-11.jpeg';
+import Image from './photo/Image';
+import Order from './order';
 
 function App() {
+  // const lists = List;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ 
+ <div className="App">
+ <Order></Order>
+ </div>
   );
 }
 
 export default App;
+
