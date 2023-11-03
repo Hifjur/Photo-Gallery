@@ -4,8 +4,6 @@ import Paper from '@mui/material/Paper';
 
 import { styled } from '@mui/material/styles';
 
-import image from './images/image-11.jpeg';
-import Image from './photo/Image';
 import Order from './order';
 
 function App() {
